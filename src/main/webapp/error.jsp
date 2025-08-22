@@ -18,7 +18,7 @@ String errorMsg = (String) session.getAttribute("errorMsg");
 		<%=errorMsg%>
 	</font>
 </p>
-	
+	test
 	<a href="login.jsp">ログインページ</a>
 
 </body>
