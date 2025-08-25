@@ -53,9 +53,10 @@ public class FruitShopServlet extends HttpServlet {
 		out.print("<br>");
 		out.print("<a href=fruitsShop.jsp>戻る</a><hr>");
 		// データを表示
+		out.print("＊カートの中身＊<br>");
 		out.print(data);
-//		out.print(inputData);
-		
+		out.print("<a href=BuyServlet>[購入する]</a><hr>");
+
 	}
 
 }
